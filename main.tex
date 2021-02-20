@@ -1,0 +1,139 @@
+\documentclass[a4paper, 11pt, norsk]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{a4wide}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[norsk]{babel}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage[pdftex, pdfborderstyle={/S/U/W 0}]{hyperref}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{booktabs}
+\usepackage[parfill]{parskip}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+\usepackage[backend=biber, style=ieee,sortcites]{biblatex}
+\usepackage[toc,page]{appendix}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{outlines}
+\usepackage{matlab-prettifier}
+\usepackage{tikz,lipsum,lmodern}
+\usepackage[nooldvoltagedirection]{circuitikz}
+\usepackage{placeins}
+\usepackage{flafter}
+\usepackage{siunitx}
+
+
+\renewcommand{\thesection}{\S\arabic{section}}
+
+\addto\captionsnorsk{%
+  \renewcommand\appendixname{Appendiks}
+  \renewcommand\appendixpagename{Appendiks}
+  \renewcommand\appendixtocname{Appendiks}
+}
+
+
+\setcounter{secnumdepth}{6}
+
+
+\lstset{literate=%
+{æ}{{\ae}}1
+{å}{{\aa}}1
+{ø}{{\o}}1
+{Æ}{{\AE}}1
+{Å}{{\AA}}1
+{Ø}{{\O}}1
+}
+\lstset{extendedchars=\true}
+\lstset{inputencoding=ansinew}
+
+
+\addbibresource{ref.bib}
+
+
+\setlength{\parskip}{2ex}
+
+
+\usetikzlibrary{shapes, arrows, positioning}
+
+
+\begin{document}
+
+%Headingdel:---------------------------------------------
+
+\begin{centering}
+\huge
+%Skriv emnekode her:-------------
+Statutter\\
+\vspace{1ex}
+ \huge \textbf{
+%Skriv tittel her:-------------
+ Hackerspace NTNU
+%------------------------------
+}\\
+\vspace{1ex}
+\Large
+%Skriv inn forfattere her------
+% Torstein Nordgård-Hansen
+%------------------------------
+\vspace{3ex}
+
+\normalsize
+%\rule{\textwidth}{1pt}
+\begin{tabular}{c}
+\toprule
+%Fyll inn relevant informasjon i feltene under---------
+Dato: \today \\
+\bottomrule
+\end{tabular}
+
+\bigskip
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.55\textwidth]{coglight}\label{fig:logo}
+\end{figure}
+
+\end{centering}
+
+
+
+\newpage
+%Automatisk generert innholdsfortegnelse:------------------
+\setlength{\parskip}{0ex}
+\renewcommand{\baselinestretch}{0.1}\normalsize
+\spacing{1}
+\tableofcontents
+\singlespacing{}
+\renewcommand{\baselinestretch}{1.00}\normalsize
+\setlength{\parskip}{2ex}
+\rule{\textwidth}{1pt}
+
+
+
+\newpage
+\input{innhold.tex}
+
+
+
+% Bibliografi
+% \FloatBarrier
+% \newpage
+% \section{Sources}
+% \printbibliography[heading=none]
+
+
+\end{document}
+
+
