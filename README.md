@@ -1,3 +1,3 @@
-# Hackerspace sine statutter
+# Hackerspace NTNU sine statutter
 
-Dette repoet inneholder Hackerspace sine statutter, ikke push til master utenom generalforsamling.
+Dette repoet inneholder Hackerspace NTNU sine statutter, ikke push til master utenom generalforsamling.
