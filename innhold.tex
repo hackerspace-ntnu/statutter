@@ -1,3 +1,4 @@
+\setcounter{secnumdepth}{3}
 \section{Navn}\label{sec:navn}
 Prosjektets navn er Hackerspace NTNU; Hackerspace kan også benyttes.
 
@@ -35,16 +36,43 @@ For å sikre søkerens rett til anonymitet, skal alle slike møter gjennomføres
 Alle skriftlige dokumenter med personopplysninger skal destrueres innen én måned etter at kandidaten mottar svar på søknaden.
 
 \subsection{Medlemsplikter}\label{sec:medlemskap:medlemsplikter}
-Aktive medlemmer skal tilegne seg nødvendig kunnskap til å holde verkstedet åpent.
-Dette utgjør Hackerspace Grunnkurs og skal gjøres tilgjengelig av styret.
+Aktive medlemmer skal tilegne seg nødvendig kunnskap til å holde verkstedet åpent og andre varierte tekniske kunnskaper.
+
+Dette utgjør Hackerspace Grunnkurs (HSGK) som består av følgende kurs:
+
+\begin{itemize}
+\item Kurs i hvordan holde vakt (verkstedskurset)
+\item Kurs i Arduino og andre mikrokontrollere
+\item Kurs i Raspberry Pi
+\item Kurs i lodding og småelektronikk
+\item Kurs i Linux og bruk av terminalen
+\item Kurs i 3D-printing
+\end{itemize}
 
 Aktive medlemmer har følgende faste plikter:
 \begin{itemize}
 \item Aktiv deltakelse i minst én gruppe (\ref{sec:struktur}).
-\item Ukentlig deltakelse på verkstedets vaktliste.
+\item Ukentlig deltakelse på verkstedets vaktliste. (\ref{sec:medlemskap:medlemsplikter:vaktpaaverksted})
 \item Støtte prosjektet gjennom stand, kurs og lignende ved behov.
 \end{itemize}
 Ledelsen kan gi fritak fra plikter ved behov.
+
+\subsubsection{Pliktig vakt på verkstedet} \label{sec:medlemskap:medlemsplikter:vaktpaaverksted}
+Aktive medlemmer er pliktet til å melde seg opp på vakt minst én gang i uken, dersom ikke annet er avtalt med ledelsen. 
+Dersom et aktivt medlem er forhindret fra å møte til en oppmeldt vakt, skal medlemmet gi beskjed før vaktens starttidspunkt til øvrige medlemmer som er oppmeldt på samme vakt.
+Ved fravær fra oppmeldt vakt plikter medlemmet å sørge for at et annet aktivt medlem overtar vakten. Ansvar for gjennomføring av vakten ligger hos det opprinnelig oppmeldte medlemmet frem til erstatter er bekreftet.
+
+\subsubsection{Fravær fra oppmeldt vakt på verkstedet} \label{sec:medlemskap:medlemsplikter:fravervakt}
+Et aktivt medlem regnes som fraværende fra sin oppmeldte vakt hvis medlemmet møter mer enn 15 minutter etter starttidspunktet for oppmeldt vakt. Medlemmer som er fraværende fra sin vakt kan meldes inn til tillitsvalgt, som har taushetsplikt.
+Ledelsen kan godkjenne fravær fra oppmeldt vakt dersom medlemmet har informert ledelsen om fraværet før vaktens starttidspunkt. Godkjent fravær regnes ikke som fravær.
+Dersom et aktivt medlem er fraværende fra sin oppmeldte vakt tre ganger i et semester får medlemmet en advarsel.
+Advarsler forblir gjeldende i to semestre. Gjeldende advarsler har følgende oppgaver:
+\begin{itemize}
+\item Én gjeldende advarsel gir formelt møte med ledelsen.
+\item To eller flere gjeldende advarsler gir formelt møte med ledelsen, og risiko for utkastelse (\ref{sec:medlemskap:utkastelse}) fra prosjektet dersom medlemmet ikke møter på oppmeldt vakt igjen.
+\end{itemize}
+
+
 
 \subsection{Oppsigelse av medlemskap}\label{sec:medlemskap:oppsigelse}
 Medlemmer kan når som helst avslutte medlemskapet sitt.
@@ -157,10 +185,15 @@ Innkallingen sendes da ut minst to uker i forkant sammen med saksliste.
 Alle personvalg med flere kandidater skal være anonyme.
 Stemmeopptellingen foregår lukket av valgkomiteen, med mindre $\frac{2}{3}$ av de stemmeberettigede som deltar ved valget ønsker noe annet.
 
-Personvalg gjennomføres ved at personen med minst 50\% av stemmene vinner valget.
-Er det flere kandidater hvor ingen har flertall, skal kandidaten med minst stemmer fjernes fra listen, og en ny runde med stemming avholdes.
-Dette gjentas til én kandidat får minst 50\% av stemmene.
-Skulle det være to kandidater igjen -- hvor begge har fått et likt antall stemmer, holdes en ny runde avstemning.
+Personvalg gjennomføres ved bruk av overførbar stemme.
+Hver stemmeberettigede rangerer kandidatene i prioritert rekkefølge (1., 2., 3. osv.).
+Ved opptelling telles først alle førstepreferanser.
+En kandidat som oppnår minst 50 \% av de gyldige stemmene vinner valget.
+
+Dersom ingen kandidat oppnår flertall, elimineres kandidaten med færrest stemmer.
+Stemmer som hadde den eliminerte kandidaten som høyeste gjenværende preferanse, overføres til neste rangerte kandidat på stemmeseddelen.
+Dette gjentas til én kandidat oppnår minst 50 \% av stemmene.
+Dersom det til slutt gjenstår kandidater med likt stemmetall, avgjøres valget ved ny avstemning hvor kun de gjenværende kandidatene er valgbare.
 
 Ledelsen samt de andre gruppenes leder og nestleder velges i utgangspunktet for ett år av gangen, og kan ikke gjenvelges etter to år i det samme vervet om det finnes andre kandidater.
 Tidligere leder i ledelsen eller en annen gruppe kan ikke velges til nestleder i den samme gruppen om det finnes andre kandidater.
